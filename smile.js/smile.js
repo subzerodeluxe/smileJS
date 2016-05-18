@@ -22,7 +22,7 @@ function $(id) {
 			var str = object.element.innerHTML; 
 	    	var res = str.replace("sad :(", "happy :)");
 	    	object.element.innerHTML = res; 
-	    	return object; 
+	    	return object;  
     	}
 	}
 	return object; 
