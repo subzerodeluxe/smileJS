@@ -6,15 +6,30 @@
   <meta name="author" content="Maarten Waanders">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
   <script src="smile.js"></script>
   <script type="text/javaScript">
   	window.onload = function() {
   		$('#change-it').smile('title', 'I am happy');
+      $('#change-text').replace(); 
   	}
   </script>
   </head>
+    <style>
+      .container h2 {
+        font-family: 'Roboto Slab', serif;
+        text-align: center;  
+      } 
 
+      img {
+        max-width: 100%;
+      }
+    </style>
   <body>
-	<img id="change-it" title="I'm not happy at all" src="https://www.photos-de-chat.fr/wp-content/uploads/2015/01/photo-de-chaton-triste.jpg" /> 
+	<div class="container">
+    <img id="change-it" title="I'm not happy at all" src="https://www.photos-de-chat.fr/wp-content/uploads/2015/01/photo-de-chaton-triste.jpg" /> 
+    
+    <h2 id="change-text">I'm feeling sad :(</h2>
+  </div>
   </body>
   </html>
