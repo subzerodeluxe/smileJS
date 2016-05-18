@@ -20,3 +20,11 @@ Download the library (smile.js) and add the following lines of code into your in
 ## Motivation 
 
 SmileJS was built as part of a schoolproject for students to create their own JavaScript library. 
+
+
+## Log
+
+* New feature: negative word replacement 
+Created a filter that replaces negative words with positive ones. 
+
+
